@@ -17,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/Davidkinkaku1/GiphyPage/issues"
   },
-  "homepage": "https://github.com/Davidkinkaku1/GiphyPage#readme"
+  "homepage": "https://github.com/Davidkinkaku1/GiphyPage#readme",
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "pg": "^8.23.1"
+  }
 }
