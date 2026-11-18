@@ -23,3 +23,10 @@ async function connect() {
 }
 
 connect();
+
+async function SelectAllUsers() {
+    const client = await connect();
+    const res = await client.query('SELECT * FROM users');
+    client.release();
+    return res.rows;
+}
